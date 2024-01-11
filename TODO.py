@@ -5,7 +5,7 @@ class Task:
 
   def __init__(self, description, priority, due_date=None, completed=False):
     self.description = description
-    self.priority = priority
+    self.priority = priority 
     self.completed = completed
     self.due_date = due_date
 
